@@ -6,7 +6,7 @@ A 16-key mechanical macropad featuring a rotary encoder, per-key RGB, and a 0.91
 
 | Top View | Bottom View |
 | :---: | :---: |
-| ![Board Front](Images (R)/topbrd.png) | ![Board Back](Images (R)/btmbrd.png) |
+| ![Board Front](Images (R) /topbrd.png) | ![Board Back](Images (R)/btmbrd.png) |
 
 ## Features
 
