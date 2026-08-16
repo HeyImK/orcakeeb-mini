@@ -6,7 +6,7 @@ A 16-key mechanical macropad featuring a rotary encoder, per-key RGB, and a 0.91
 
 | Top View | Bottom View |
 | :---: | :---: |
-| ![Board Front](<Images (R)/topbrd.png>) | ![Board Back](Images (R)/btmbrd.png) |
+| ![Board Front](<Images (R)/topbrd.png>) | ![Board Back](<Images (R)/btmbrd.png>) |
 
 ## Features
 
@@ -27,11 +27,11 @@ A 16-key mechanical macropad featuring a rotary encoder, per-key RGB, and a 0.91
 
 | Schematic Design |
 | :---: |
-| ![Schematic Diagram](Images (R)/schematics_orcakeeb.png) |
+| ![Schematic Diagram](<Images (R)/schematics_orcakeeb.png>) |
 
 | PCB Top Layer Routing | PCB Bottom Layer Routing |
 | :---: | :---: |
-| ![Top Routing](Images (R)/routing_topbrd.png) | ![Bottom Routing](Images (R)/routing_btmbrd.png) |
+| ![Top Routing](<Images (R)/routing_topbrd.png>) | ![Bottom Routing](<Images (R)/routing_btmbrd.png>) |
 
 ### Connections
 * **VBUS (5V):** Routes power straight from the USB-C port to the main 10µF bulk capacitor, then daisy-chains to the VDD pins of all 16 LEDs. 
