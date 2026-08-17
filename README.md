@@ -25,6 +25,21 @@ A 16-key mechanical macropad featuring a rotary encoder, per-key RGB, and a 0.91
 * **Screen:** 0.91" SSD1306 I2C OLED Module
 * **Miscellaneous:** 1x 10µF Ceramic Cap (for main 5V), 16x 0.1µF Caps (LED decoupling), EC11 (or similar knockoffs) Rotary Encoder
 
+## Bill of Materials (BOM)
+
+| Qty | Component | Footprint | Designator(s) |
+| :---: | :--- | :--- | :--- |
+| 15 | 100nf Capacitor | C_0603_1608Metric | C1, C2, C3, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16 |
+| 1 | 10uf Capacitor | C_0603_1608Metric | C17 |
+| 1 | 10nF Capacitor | C_0603_1608Metric | C22 |
+| 15 | SK6812MINI-E LED | LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount | D1, D2, D3, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16 |
+| 15 | 1N4148W Diode | D_SOD-123 | D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D30, D31, D32 |
+| 2 | 10k Resistor | R_0603_1608Metric | R3, R4 |
+| 15 | SW_Push (Cherry MX) | SW_Cherry_MX_1.00u_PCB | SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW14, SW15, SW16 |
+| 1 | RotaryEncoder_Switch | RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm | SW19 |
+| 1 | RP2040_MICRO | RP2040 MINI | U1 |
+| 1 | 0.91_OLED | Untitled | U2 |
+
 | Schematic Design |
 | :---: |
 | ![Schematic Diagram](<Images (R)/schematics_orcakeeb.png>) |
